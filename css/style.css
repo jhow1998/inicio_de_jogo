@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Nunito',sans-serif;
+    margin: 0;padding: 0;
+    outline: none;border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    font-size: 65.2%;
+}
+.about{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.about .image{
+    flex: 1 1 55rem;
+    height: 100vh;
+    border: 3px solid black;
+    background-repeat: no-repeat;
+    background-image: url(/image/jinx.webp);
+    background-size:100% 100%;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.about .content{
+    flex: 1 1 50rem;
+    height: 100vh;
+    border: 3px solid black;
+    background-repeat: no-repeat;
+    background-image: url(/image/lol.webp);
+    background-size:100% 100%;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.about .image:hover{
+    cursor: pointer;
+    filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.about .content:hover{
+    cursor: pointer;
+    filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+
+
+
